@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+* {
+  color: #fff;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  max-width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom: 1px solid #485fb4;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.nav h1 {
+  margin-right: auto;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.nav a.active {
+  background: var(--primary);
+}
+
+.page {
+  max-width: 1250px;
+  margin: 30px auto;
+}
+
+.help-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.help-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 10px;
+}
+.help-nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-nav a.active {
+  background: var(--primary);
+}
+
+.faq {
+  margin-bottom: 30px;
+}
+.faq h2 {
+  margin-bottom: 20px;
+}
+
+.question {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.form h2 {
+  margin: 20px 0;
+}
+
+.form input {
+  margin: 5px 0;
+  width: 100%;
+  font-size: 20px;
+  color: #2b3452;
+}
+
+.form textarea {
+  width: 100%;
+  font-size: 20px;
+  color: #2b3452;
+  margin: 5px 0;
+}
+
+.form .button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.post a {
+  display: block;
+  border: 2px solid #444;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.post a p:first-child {
+  font-size: 20px;
+}
+.post a:hover p:first-child {
+  color: #bc4123;
+}
+
+.post a p:last-child {
+  font-size: 14px;
+}
+
+.detail-page {
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 1250px;
+}
+
+.error-page {
+  margin: 50px;
+}
